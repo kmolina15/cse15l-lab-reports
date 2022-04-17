@@ -6,4 +6,14 @@ Hello! This is my first CSE15L lab report. This will cover the instructions for 
 
 Visual Studio Code (VSCode) is a programming interface that helps increase efficiency. You can download it for free from their [website](https://code.visualstudio.com/). Once you have installed VScode, you should open it and receive a window like this:
 
-![Image](https://kmolina15.github.io/cse15l-lab-reports/img1.png)
+![Image](https://kmolina15.github.io/cse15l-lab-reports/vscinterface.png)
+
+## **2) Remotely Connecting**
+
+You can add a terminal from VSCode by hovering over Terminal in the top-left and clicking **New Terminal** (can also be done with Ctrl + '). From the new terminal you can connect remotely to a lab computer using the command:
+
+ssh user@hostname
+
+After doing this, answer 'yes' to the prompt and enter your password. If your login is successful, your terminal should look somewhat like this:
+
+![Image](https://kmolina15.github.io/cse15l-lab-reports/vscinterface.png)
