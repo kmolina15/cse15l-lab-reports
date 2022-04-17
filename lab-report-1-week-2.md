@@ -10,10 +10,12 @@ Visual Studio Code (VSCode) is a programming interface that helps increase effic
 
 ## **2) Remotely Connecting**
 
-You can add a terminal from VSCode by hovering over Terminal in the top-left and clicking **New Terminal** (can also be done with Ctrl + '). From the new terminal you can connect remotely to a lab computer using the command:
+If you are on a Windows device (like me), you first need to install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to connect remotely. Open up a new terminal (can be done from VSCode via Terminal on the taskbar -> New Terminal, or using Ctrl + ') and enter this command to log in remotely:
 
-ssh user@hostname
+ssh user@hostname 
 
-After doing this, answer 'yes' to the prompt and enter your password. If your login is successful, your terminal should look somewhat like this:
+* (the login used for this course is cs15lsp22zz@ieng6.ucsd.edu with zz representing a user-specific combination of letters)
 
-![Image](https://kmolina15.github.io/cse15l-lab-reports/vscinterface.png)
+After doing this, answer 'yes' to the prompt and enter your password. If your login is successful, your terminal should contain a message like this:
+
+![Image](https://kmolina15.github.io/cse15l-lab-reports/login.png)
