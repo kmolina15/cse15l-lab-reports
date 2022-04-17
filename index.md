@@ -1,5 +1,1 @@
-Week 1 Lab Report
-
-**bold** 
-
-format more later
+[Lab Report 1](https://kmolina15.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
