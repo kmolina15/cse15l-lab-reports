@@ -46,4 +46,15 @@ The private key stored in your computer paired with the public key in the remote
 
 ![Image](https://kmolina15.github.io/cse15l-lab-reports/keylogin.png)
 
-## **6) **
+## **6) Optimizing Remote Running**
+
+Now that we don't have to input our password to use scp and ssh, we can make the transition of local edits to remote copying much more efficient. Some other optimizations to minimize the amount of command lines needed to run include:
+* adding commands in "" quotations after ssh, which will prompt the terminal to login, run the commands and logout
+* running multiple commands in one line by separating them with semicolons ;
+
+For example, we can use this single command line to copy the edits made to WhereAmI.java over to and run them from the remote server:
+* $ scp WhereAmI.java [Account Name]; ssh [Account Name] "javac WhereAmI.java; java WhereAmI;"; 
+
+Here is an example of this in action (note that after WhereAmI runs, the terminal has logged out of the server):
+
+![Image]()
