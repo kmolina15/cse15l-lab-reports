@@ -57,4 +57,4 @@ For example, we can use this single command line to copy the edits made to Where
 
 Here is an example of this in action (note that after WhereAmI runs, the terminal has logged out of the server):
 
-![Image]()
+![Image](https://kmolina15.github.io/cse15l-lab-reports/editfile.png)
