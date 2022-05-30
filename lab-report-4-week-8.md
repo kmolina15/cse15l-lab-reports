@@ -54,7 +54,7 @@ To make the program work for this snippet would probably not be doable via a sim
 
 ## **Snippet 3**
 
-The third snippet should produce an array with one links: [].
+The third snippet should produce an array with one link: [https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule].
 
 Here is the test markdown file and the resulting links produced:
 
