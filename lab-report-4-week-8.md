@@ -2,6 +2,10 @@
 
 For this lab report, I will be going through three different inputs for markdownParse and fix any issues that each input may produce.
 
+[This](https://github.com/kmolina15/markdown-parser) is the repository from my group that I cloned.
+
+[This](https://github.com/Steven-Hsu1/markdown-parser) is the repository from the other group that I cloned.
+
 ## **Snippet 1**
 
 The first snippet should produce an array with three links: ['google.com, google.com, ucsd.edu].
